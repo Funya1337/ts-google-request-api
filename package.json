@@ -1,0 +1,23 @@
+{
+  "name": "fl_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "rm -rf build/ && tsc",
+    "start": "node build/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "typescript": "^4.9.4"
+  }
+}
